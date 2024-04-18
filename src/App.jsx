@@ -21,13 +21,7 @@ function App() {
 function Navbar() {
   return (
     <nav className="navbar">
-      <h1>Rock Band</h1>
-      <ul>
-        <li><a href="#home">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#music">Music</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
+      <h1>SERPHIKA</h1>
     </nav>
   );
 }
@@ -35,31 +29,31 @@ function Navbar() {
 function Principal() {
   return (
     <section className="principal">
-      <h2>Welcome to Rock Band</h2>
-      <p>Rock Band is a high-energy rock group that has been performing around the world for over a decade. With their electrifying stage presence and killer guitar riffs, they never fail to get the crowd on their feet.</p>
-      <p>Check out our latest album "Rock Revolution" available now on all major streaming platforms.</p>
+      <h2>Bienvenidos a Serphika</h2>
+      <p>Serphika es un grupo de rock de alta energía que ha estado actuando alrededor del mundo durante más de una década. Con su presencia electrizante en el escenario y sus impresionantes riffs de guitarra, nunca dejan de hacer que la multitud se ponga de pie.
+      Echa un vistazo a nuestro último álbum "Sombras de Vanidad", disponible ahora en todas las plataformas de streaming principales.</p>
     </section>
   );
 }
 
 function Aside() {
   return (
-    <aside className="aside">
-      <h2>Upcoming Shows</h2>
-      <ul>
-        <li>April 25 - The Rock Palace, New York</li>
-        <li>May 10 - Rock Arena, Los Angeles</li>
-        <li>June 5 - Rock Fest, Chicago</li>
-      </ul>
-    </aside>
+  <aside className="aside">
+    <h2>Próximos Conciertos</h2>
+    <ul>
+      <li>25 de Abril - El Estadio del Rock, Buenos Aires</li>
+      <li>10 de Mayo - Arena del Rock, Córdoba</li>
+      <li>5 de Junio - Festival del Rock, Rosario</li>
+    </ul>
+  </aside>
   );
 }
 
 function Footer() {
   return (
-    <footer className="footer">
-      <p>&copy; 2024 Rock Band. All rights reserved.</p>
-    </footer>
+  <footer className="footer">
+    <p>&copy; {new Date().getFullYear()} Serphika. Todos los derechos reservados.</p>
+  </footer>
   );
 }
 export default App
